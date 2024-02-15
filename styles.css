@@ -1,0 +1,203 @@
+body{
+    font-family: sans-serif;
+    }
+    .main{
+    width: 90%;
+    height: auto;
+    background: #000;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .section{
+    width: 80%;
+    height: 32px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .section h1{
+    position: absolute;
+    font-size: 26px;
+    margin: 3px;
+    color: #0c817f;
+    font-weight: bold;
+    }
+    .menubar{
+    width: 90%;
+    }
+    .menubar ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    }
+    .menubar ul li{
+    padding: 10px;
+    }
+    .menubar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    }
+    .section_1{
+    width: 80%;
+    height: auto;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .paragraph h2{
+    text-align: center;
+    padding: 10px;
+    }
+    .paragraph p{
+    margin: 10px;
+    }
+    .images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 10px;
+    padding: 10px;
+    }
+    .images h2{
+    text-align: center;
+    padding: 10px;
+    }
+    .images p{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+    .img_text{
+    position: relative;
+    }
+    .img_text p{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    color: #fff;
+    }
+    .img_text_1{
+    position: relative;
+    }
+    .img_text_1 p{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    color: #fff;
+    }
+    .img_text_2{
+    position: relative;
+    }
+    .img_text_2 p{
+    position: absolute;
+    top: 0;
+    left: 65px;
+    color: #000;
+    }
+    .img_text_3{
+    position: relative;
+    }
+    .img_text_3 p{
+    position: absolute;
+    left: 65px;
+    top: 300px;
+    }
+    .images img{
+    width: 100%;
+    }
+    #form{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .form h2{
+    color: #ffffff;
+    text-align: center;
+    }
+    .form p{
+    color: #fff;
+    text-align: center;
+    }
+    .form label{
+    color: #fff;
+    margin: 10px;
+    }
+    .form-control{
+    width: 100%;
+    padding: 6px;
+    }
+    .button{
+    text-align: center;
+    }
+    .button a{
+    padding: 5px 162px;
+    background: #0c817f;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+    }
+    ::placeholder {
+    color: #0c817f; 
+    font-weight: bold;
+    }
+    .copy{
+    text-align: center;
+    }
+    .copy p{
+    color: #fff;
+    margin-top: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    }	
+    .img_text p {
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #fff;
+    }
+    .img_text_1 p {
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    .img_text_2 p{
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    .img_text_3 p {
+    top: 91%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    @media (max-width:992px){
+    .menubar{
+    width: 92%;
+    }
+    .menubar ul {
+    justify-content: center;
+    }
+    .menubar ul li{
+    padding: 5px;
+    }
+    .images{
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .button a{
+    padding: 5px 80px;
+    }
+    }
+    @media (max-width:576px){
+    .menubar ul li{
+    font-size: 10px;
+    }
+    }
+    .button a{
+    padding: 5px 40px;
+    }
+    @media (max-width:768px){
+    .images{
+    grid-template-columns: repeat(1, 1fr);
+    }
